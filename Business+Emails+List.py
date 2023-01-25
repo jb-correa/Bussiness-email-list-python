@@ -40,7 +40,7 @@ with SMTP(host = 'smtp.gmail.com', port = 587) as connect_server:
 			message = "Subject:White Friday Discount Offer\n\nHi, {}, Don't wait and buy now.".format(name)
 			connect_server.sendmail(Sender, [email], message)
 		# Testing our code by sending emails and print statements
-		elif actual_date == (24, 1):
+		elif actual_date == (24, 12):
 			message = "Subject:Discount Offer\n\nHi, {}, Code is okay.".format(name)
 			connect_server.sendmail(Sender, [email], message)
 			print('Code testing result is okay.')
