@@ -6,9 +6,10 @@ import dateutil
 import numpy as np
 import pandas as pd
 
-
-Sender = 'python.practice.bot@gmail.com'
-Password = 'yetcezmcvxueacvl'
+#Quite los datos de mi propio mail
+#Ingresar datos del mail que se va a utilizar y la contraseña de aplicación
+Sender = '#'
+Password = '#'
 now = datetime.datetime.now()
 
 actual_date = (now.day, now.month)
